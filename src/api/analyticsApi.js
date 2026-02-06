@@ -5,5 +5,5 @@ import api from "./axios";
  * optional: division=PERSONAL|OFFICE, start/end (ISO Instants)
  */
 export const analyticsApi = {
-  dashboard: (params) => api.get("/analytics/dashboard", { params }).then(r => r.data),
+  dashboard: (params) => api.get("/api/analytics/dashboard", { params }).then(r => r.data),
 };
